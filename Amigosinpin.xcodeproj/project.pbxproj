@@ -3,27 +3,107 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122285A82514957500CDA1F1 /* OTPVerficationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122285A72514957500CDA1F1 /* OTPVerficationVC.swift */; };
+		122285AA2514A18D00CDA1F1 /* TabBarConrollers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122285A92514A18D00CDA1F1 /* TabBarConrollers.swift */; };
+		122285AC2514B1BF00CDA1F1 /* MenuTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122285AB2514B1BF00CDA1F1 /* MenuTVCell.swift */; };
+		122285AF2514DB8100CDA1F1 /* ContactUsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122285AD2514DB8100CDA1F1 /* ContactUsTVCell.swift */; };
+		122285B02514DB8100CDA1F1 /* ContactUsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122285AE2514DB8100CDA1F1 /* ContactUsTVCell.xib */; };
+		1266318C2524168B0077271B /* TopUpDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266318B2524168B0077271B /* TopUpDetailVC.swift */; };
+		126631BD2524434D0077271B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126631BC2524434D0077271B /* BaseViewController.swift */; };
+		126631BF252443D00077271B /* LeftSideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126631BE252443D00077271B /* LeftSideMenuVC.swift */; };
+		126631C1252449500077271B /* DailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126631C0252449500077271B /* DailVC.swift */; };
+		126631C32524601C0077271B /* DailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126631C22524601C0077271B /* DailCollectionView.swift */; };
+		12923D922523164A00703F39 /* AddMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12923D912523164A00703F39 /* AddMoneyVC.swift */; };
+		12923D9425235BF100703F39 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12923D9325235BF100703F39 /* PaymentVC.swift */; };
+		12923D9625236A4B00703F39 /* PaymentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12923D9525236A4B00703F39 /* PaymentCollectionViewCell.swift */; };
 		12A303B52513203B00A43E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303B42513203B00A43E68 /* AppDelegate.swift */; };
 		12A303B72513203B00A43E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303B62513203B00A43E68 /* SceneDelegate.swift */; };
-		12A303B92513203B00A43E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303B82513203B00A43E68 /* ViewController.swift */; };
 		12A303BC2513203B00A43E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A303BA2513203B00A43E68 /* Main.storyboard */; };
 		12A303BE2513203F00A43E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A303BD2513203F00A43E68 /* Assets.xcassets */; };
 		12A303C12513203F00A43E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A303BF2513203F00A43E68 /* LaunchScreen.storyboard */; };
+		12A303CD25132DF100A43E68 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303CC25132DF100A43E68 /* LogInVC.swift */; };
+		12A303CF25132E0400A43E68 /* SignUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303CE25132E0400A43E68 /* SignUPVC.swift */; };
+		12A303E02513382F00A43E68 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D32513382C00A43E68 /* Roboto-Thin.ttf */; };
+		12A303E12513382F00A43E68 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D42513382C00A43E68 /* Roboto-BlackItalic.ttf */; };
+		12A303E22513382F00A43E68 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D52513382D00A43E68 /* Roboto-Bold.ttf */; };
+		12A303E32513382F00A43E68 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D62513382D00A43E68 /* Roboto-Medium.ttf */; };
+		12A303E42513382F00A43E68 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D72513382D00A43E68 /* Roboto-Light.ttf */; };
+		12A303E52513382F00A43E68 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D82513382D00A43E68 /* Roboto-ThinItalic.ttf */; };
+		12A303E62513382F00A43E68 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303D92513382D00A43E68 /* Roboto-Regular.ttf */; };
+		12A303E72513382F00A43E68 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303DA2513382E00A43E68 /* Roboto-Italic.ttf */; };
+		12A303E82513382F00A43E68 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303DB2513382E00A43E68 /* Roboto-LightItalic.ttf */; };
+		12A303E92513382F00A43E68 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303DC2513382E00A43E68 /* Roboto-MediumItalic.ttf */; };
+		12A303EA2513382F00A43E68 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303DD2513382E00A43E68 /* Roboto-BoldItalic.ttf */; };
+		12A303EB2513382F00A43E68 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12A303DE2513382E00A43E68 /* LICENSE.txt */; };
+		12A303EC2513382F00A43E68 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A303DF2513382E00A43E68 /* Roboto-Black.ttf */; };
+		12A303F125133FC400A43E68 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303EE25133FC400A43E68 /* TextFieldExtension.swift */; };
+		12A303F225133FC400A43E68 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303EF25133FC400A43E68 /* UIViewExtension.swift */; };
+		12A303F325133FC400A43E68 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303F025133FC400A43E68 /* StringExtension.swift */; };
+		12A303F72513644100A43E68 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303F62513644100A43E68 /* HomeVC.swift */; };
+		12A303FD251364AD00A43E68 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A303FC251364AD00A43E68 /* ContactVC.swift */; };
+		12A30403251364FA00A43E68 /* TopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A30402251364FA00A43E68 /* TopUpVC.swift */; };
+		12A304052513651C00A43E68 /* ChoosePaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304042513651C00A43E68 /* ChoosePaymentVC.swift */; };
+		12A304082513666200A43E68 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A304072513666200A43E68 /* ProfileVC.swift */; };
+		12A3040A251381C000A43E68 /* PaidCallPriorityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A30409251381C000A43E68 /* PaidCallPriorityVC.swift */; };
+		12A3040D2513897B00A43E68 /* PaidCallProirityTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A3040B2513897B00A43E68 /* PaidCallProirityTVCell.swift */; };
+		12A3040E2513897B00A43E68 /* PaidCallProirityTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A3040C2513897B00A43E68 /* PaidCallProirityTVCell.xib */; };
+		C88800B230673B128542F1DC /* Pods_Amigosinpin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A91E4E7EFEAD96F4B51AEB /* Pods_Amigosinpin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122285A72514957500CDA1F1 /* OTPVerficationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerficationVC.swift; sourceTree = "<group>"; };
+		122285A92514A18D00CDA1F1 /* TabBarConrollers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConrollers.swift; sourceTree = "<group>"; };
+		122285AB2514B1BF00CDA1F1 /* MenuTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVCell.swift; sourceTree = "<group>"; };
+		122285AD2514DB8100CDA1F1 /* ContactUsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsTVCell.swift; sourceTree = "<group>"; };
+		122285AE2514DB8100CDA1F1 /* ContactUsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactUsTVCell.xib; sourceTree = "<group>"; };
+		1266318B2524168B0077271B /* TopUpDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpDetailVC.swift; sourceTree = "<group>"; };
+		126631BC2524434D0077271B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		126631BE252443D00077271B /* LeftSideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideMenuVC.swift; sourceTree = "<group>"; };
+		126631C0252449500077271B /* DailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailVC.swift; sourceTree = "<group>"; };
+		126631C22524601C0077271B /* DailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailCollectionView.swift; sourceTree = "<group>"; };
+		12923D912523164A00703F39 /* AddMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyVC.swift; sourceTree = "<group>"; };
+		12923D9325235BF100703F39 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		12923D9525236A4B00703F39 /* PaymentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCollectionViewCell.swift; sourceTree = "<group>"; };
 		12A303B12513203B00A43E68 /* Amigosinpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amigosinpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A303B42513203B00A43E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A303B62513203B00A43E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12A303B82513203B00A43E68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12A303BB2513203B00A43E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12A303BD2513203F00A43E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A303C02513203F00A43E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A303C22513203F00A43E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A303CC25132DF100A43E68 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		12A303CE25132E0400A43E68 /* SignUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVC.swift; sourceTree = "<group>"; };
+		12A303D32513382C00A43E68 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		12A303D42513382C00A43E68 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		12A303D52513382D00A43E68 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		12A303D62513382D00A43E68 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		12A303D72513382D00A43E68 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		12A303D82513382D00A43E68 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		12A303D92513382D00A43E68 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		12A303DA2513382E00A43E68 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		12A303DB2513382E00A43E68 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		12A303DC2513382E00A43E68 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		12A303DD2513382E00A43E68 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		12A303DE2513382E00A43E68 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		12A303DF2513382E00A43E68 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		12A303EE25133FC400A43E68 /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		12A303EF25133FC400A43E68 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		12A303F025133FC400A43E68 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		12A303F62513644100A43E68 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		12A303FC251364AD00A43E68 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		12A30402251364FA00A43E68 /* TopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpVC.swift; sourceTree = "<group>"; };
+		12A304042513651C00A43E68 /* ChoosePaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePaymentVC.swift; sourceTree = "<group>"; };
+		12A304072513666200A43E68 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		12A30409251381C000A43E68 /* PaidCallPriorityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCallPriorityVC.swift; sourceTree = "<group>"; };
+		12A3040B2513897B00A43E68 /* PaidCallProirityTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidCallProirityTVCell.swift; sourceTree = "<group>"; };
+		12A3040C2513897B00A43E68 /* PaidCallProirityTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaidCallProirityTVCell.xib; sourceTree = "<group>"; };
+		1732E728E24DFD2EF864559F /* Pods-Amigosinpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigosinpin.debug.xcconfig"; path = "Target Support Files/Pods-Amigosinpin/Pods-Amigosinpin.debug.xcconfig"; sourceTree = "<group>"; };
+		6F7E9051FF030311FB26474C /* Pods-Amigosinpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amigosinpin.release.xcconfig"; path = "Target Support Files/Pods-Amigosinpin/Pods-Amigosinpin.release.xcconfig"; sourceTree = "<group>"; };
+		F7A91E4E7EFEAD96F4B51AEB /* Pods_Amigosinpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amigosinpin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +111,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88800B230673B128542F1DC /* Pods_Amigosinpin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126631BB252443340077271B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				126631BC2524434D0077271B /* BaseViewController.swift */,
+				126631BE252443D00077271B /* LeftSideMenuVC.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 		12A303A82513203B00A43E68 = {
 			isa = PBXGroup;
 			children = (
 				12A303B32513203B00A43E68 /* Amigosinpin */,
 				12A303B22513203B00A43E68 /* Products */,
+				2B795FCF5FF41D22CF825D22 /* Pods */,
+				A3E9055A57411F406F76AF76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +150,131 @@
 			children = (
 				12A303B42513203B00A43E68 /* AppDelegate.swift */,
 				12A303B62513203B00A43E68 /* SceneDelegate.swift */,
-				12A303B82513203B00A43E68 /* ViewController.swift */,
+				126631BB252443340077271B /* SideMenu */,
+				12A303ED25133F3100A43E68 /* Extensions */,
+				12A303D02513380300A43E68 /* Fonts */,
+				12A303CA2513210C00A43E68 /* View */,
+				12A303C92513210300A43E68 /* Model */,
+				12A303CB2513211600A43E68 /* Controller */,
 				12A303BA2513203B00A43E68 /* Main.storyboard */,
 				12A303BD2513203F00A43E68 /* Assets.xcassets */,
 				12A303BF2513203F00A43E68 /* LaunchScreen.storyboard */,
 				12A303C22513203F00A43E68 /* Info.plist */,
 			);
 			path = Amigosinpin;
+			sourceTree = "<group>";
+		};
+		12A303C92513210300A43E68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12A303CA2513210C00A43E68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12A3040B2513897B00A43E68 /* PaidCallProirityTVCell.swift */,
+				12A3040C2513897B00A43E68 /* PaidCallProirityTVCell.xib */,
+				122285AB2514B1BF00CDA1F1 /* MenuTVCell.swift */,
+				122285AD2514DB8100CDA1F1 /* ContactUsTVCell.swift */,
+				122285AE2514DB8100CDA1F1 /* ContactUsTVCell.xib */,
+				12923D9525236A4B00703F39 /* PaymentCollectionViewCell.swift */,
+				126631C22524601C0077271B /* DailCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12A303CB2513211600A43E68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12A304062513664B00A43E68 /* SideMenuSub */,
+				12A303F42513621300A43E68 /* LogIN-SignUp-OTPVerify */,
+				12A303F52513623D00A43E68 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		12A303D02513380300A43E68 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				12A303DE2513382E00A43E68 /* LICENSE.txt */,
+				12A303DF2513382E00A43E68 /* Roboto-Black.ttf */,
+				12A303D42513382C00A43E68 /* Roboto-BlackItalic.ttf */,
+				12A303D52513382D00A43E68 /* Roboto-Bold.ttf */,
+				12A303DD2513382E00A43E68 /* Roboto-BoldItalic.ttf */,
+				12A303DA2513382E00A43E68 /* Roboto-Italic.ttf */,
+				12A303D72513382D00A43E68 /* Roboto-Light.ttf */,
+				12A303DB2513382E00A43E68 /* Roboto-LightItalic.ttf */,
+				12A303D62513382D00A43E68 /* Roboto-Medium.ttf */,
+				12A303DC2513382E00A43E68 /* Roboto-MediumItalic.ttf */,
+				12A303D92513382D00A43E68 /* Roboto-Regular.ttf */,
+				12A303D32513382C00A43E68 /* Roboto-Thin.ttf */,
+				12A303D82513382D00A43E68 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		12A303ED25133F3100A43E68 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12A303F025133FC400A43E68 /* StringExtension.swift */,
+				12A303EE25133FC400A43E68 /* TextFieldExtension.swift */,
+				12A303EF25133FC400A43E68 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12A303F42513621300A43E68 /* LogIN-SignUp-OTPVerify */ = {
+			isa = PBXGroup;
+			children = (
+				12A303CC25132DF100A43E68 /* LogInVC.swift */,
+				12A303CE25132E0400A43E68 /* SignUPVC.swift */,
+				122285A72514957500CDA1F1 /* OTPVerficationVC.swift */,
+			);
+			path = "LogIN-SignUp-OTPVerify";
+			sourceTree = "<group>";
+		};
+		12A303F52513623D00A43E68 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				12A303F62513644100A43E68 /* HomeVC.swift */,
+				126631C0252449500077271B /* DailVC.swift */,
+				12A303FC251364AD00A43E68 /* ContactVC.swift */,
+				12A30402251364FA00A43E68 /* TopUpVC.swift */,
+				12A304042513651C00A43E68 /* ChoosePaymentVC.swift */,
+				122285A92514A18D00CDA1F1 /* TabBarConrollers.swift */,
+				12923D912523164A00703F39 /* AddMoneyVC.swift */,
+				1266318B2524168B0077271B /* TopUpDetailVC.swift */,
+				12923D9325235BF100703F39 /* PaymentVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		12A304062513664B00A43E68 /* SideMenuSub */ = {
+			isa = PBXGroup;
+			children = (
+				12A304072513666200A43E68 /* ProfileVC.swift */,
+				12A30409251381C000A43E68 /* PaidCallPriorityVC.swift */,
+			);
+			path = SideMenuSub;
+			sourceTree = "<group>";
+		};
+		2B795FCF5FF41D22CF825D22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1732E728E24DFD2EF864559F /* Pods-Amigosinpin.debug.xcconfig */,
+				6F7E9051FF030311FB26474C /* Pods-Amigosinpin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3E9055A57411F406F76AF76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A91E4E7EFEAD96F4B51AEB /* Pods_Amigosinpin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12A303C52513203F00A43E68 /* Build configuration list for PBXNativeTarget "Amigosinpin" */;
 			buildPhases = (
+				68ECC49E13CC89E18C072787 /* [CP] Check Pods Manifest.lock */,
 				12A303AD2513203B00A43E68 /* Sources */,
 				12A303AE2513203B00A43E68 /* Frameworks */,
 				12A303AF2513203B00A43E68 /* Resources */,
+				531D40FFBECAA35A730888D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +337,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A303E02513382F00A43E68 /* Roboto-Thin.ttf in Resources */,
 				12A303C12513203F00A43E68 /* LaunchScreen.storyboard in Resources */,
+				12A303E92513382F00A43E68 /* Roboto-MediumItalic.ttf in Resources */,
+				12A303EB2513382F00A43E68 /* LICENSE.txt in Resources */,
+				12A303E82513382F00A43E68 /* Roboto-LightItalic.ttf in Resources */,
+				12A303E62513382F00A43E68 /* Roboto-Regular.ttf in Resources */,
+				122285B02514DB8100CDA1F1 /* ContactUsTVCell.xib in Resources */,
+				12A303E22513382F00A43E68 /* Roboto-Bold.ttf in Resources */,
+				12A303E32513382F00A43E68 /* Roboto-Medium.ttf in Resources */,
+				12A303E12513382F00A43E68 /* Roboto-BlackItalic.ttf in Resources */,
 				12A303BE2513203F00A43E68 /* Assets.xcassets in Resources */,
+				12A303E52513382F00A43E68 /* Roboto-ThinItalic.ttf in Resources */,
+				12A303EC2513382F00A43E68 /* Roboto-Black.ttf in Resources */,
+				12A303E42513382F00A43E68 /* Roboto-Light.ttf in Resources */,
+				12A303E72513382F00A43E68 /* Roboto-Italic.ttf in Resources */,
+				12A303EA2513382F00A43E68 /* Roboto-BoldItalic.ttf in Resources */,
+				12A3040E2513897B00A43E68 /* PaidCallProirityTVCell.xib in Resources */,
 				12A303BC2513203B00A43E68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		531D40FFBECAA35A730888D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amigosinpin/Pods-Amigosinpin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amigosinpin/Pods-Amigosinpin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amigosinpin/Pods-Amigosinpin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68ECC49E13CC89E18C072787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amigosinpin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12A303AD2513203B00A43E68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12A303B92513203B00A43E68 /* ViewController.swift in Sources */,
+				12A30403251364FA00A43E68 /* TopUpVC.swift in Sources */,
+				12923D922523164A00703F39 /* AddMoneyVC.swift in Sources */,
+				12A303F225133FC400A43E68 /* UIViewExtension.swift in Sources */,
+				12A303F72513644100A43E68 /* HomeVC.swift in Sources */,
+				12A303FD251364AD00A43E68 /* ContactVC.swift in Sources */,
+				126631BD2524434D0077271B /* BaseViewController.swift in Sources */,
+				12A3040D2513897B00A43E68 /* PaidCallProirityTVCell.swift in Sources */,
+				12A304052513651C00A43E68 /* ChoosePaymentVC.swift in Sources */,
+				12A303F325133FC400A43E68 /* StringExtension.swift in Sources */,
+				122285A82514957500CDA1F1 /* OTPVerficationVC.swift in Sources */,
+				12A303CF25132E0400A43E68 /* SignUPVC.swift in Sources */,
+				122285AA2514A18D00CDA1F1 /* TabBarConrollers.swift in Sources */,
 				12A303B52513203B00A43E68 /* AppDelegate.swift in Sources */,
+				12A304082513666200A43E68 /* ProfileVC.swift in Sources */,
 				12A303B72513203B00A43E68 /* SceneDelegate.swift in Sources */,
+				12A303F125133FC400A43E68 /* TextFieldExtension.swift in Sources */,
+				122285AC2514B1BF00CDA1F1 /* MenuTVCell.swift in Sources */,
+				12A303CD25132DF100A43E68 /* LogInVC.swift in Sources */,
+				12923D9625236A4B00703F39 /* PaymentCollectionViewCell.swift in Sources */,
+				12A3040A251381C000A43E68 /* PaidCallPriorityVC.swift in Sources */,
+				1266318C2524168B0077271B /* TopUpDetailVC.swift in Sources */,
+				126631BF252443D00077271B /* LeftSideMenuVC.swift in Sources */,
+				126631C32524601C0077271B /* DailCollectionView.swift in Sources */,
+				122285AF2514DB8100CDA1F1 /* ContactUsTVCell.swift in Sources */,
+				12923D9425235BF100703F39 /* PaymentVC.swift in Sources */,
+				126631C1252449500077271B /* DailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,35 +574,47 @@
 		};
 		12A303C62513203F00A43E68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1732E728E24DFD2EF864559F /* Pods-Amigosinpin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
 				INFOPLIST_FILE = Amigosinpin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.webmobril.solutions.Amigosinpin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webmobril.solution.Amigosinpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		12A303C72513203F00A43E68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F7E9051FF030311FB26474C /* Pods-Amigosinpin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
 				INFOPLIST_FILE = Amigosinpin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.webmobril.solutions.Amigosinpin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.webmobril.solution.Amigosinpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

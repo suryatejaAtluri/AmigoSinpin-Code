@@ -1,0 +1,28 @@
+PODS:
+  - IQKeyboardManagerSwift (6.3.0)
+  - LGSideMenuController (2.1.1)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SVPinView (1.0.8)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - LGSideMenuController
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SVPinView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - LGSideMenuController
+    - SkyFloatingLabelTextField
+    - SVPinView
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SVPinView: 3194be48b8275805244486590b82e6da14d23ca6
+
+PODFILE CHECKSUM: 7dcc39288ed3a052ccf73cb19fc0cb7220f124cf
+
+COCOAPODS: 1.9.3

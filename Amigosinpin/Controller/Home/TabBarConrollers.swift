@@ -1,20 +1,20 @@
 //
-//  ViewController.swift
+//  TabBarConrollers.swift
 //  Amigosinpin
 //
-//  Created by Surya Chowdary on 17/09/20.
+//  Created by Surya Chowdary on 18/09/20.
 //  Copyright © 2020 WebMobRil. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabBarConrollers: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.selectedIndex = 2
+        self.tabBar.unselectedItemTintColor = UIColor.black
         // Do any additional setup after loading the view.
     }
-
-
+    
 }
-
